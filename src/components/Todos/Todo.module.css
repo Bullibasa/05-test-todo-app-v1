@@ -1,0 +1,58 @@
+.todo {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid #555;
+  color: #112d49;
+  background-color: #fbfef9;
+  user-select: none;
+}
+
+.todoText {
+  width: 100%;
+  text-align: left;
+}
+
+.todoIcon {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  color: teal;
+}
+
+.todoIconComplete {
+  font-size: 1.8rem;
+  color: rgb(167, 164, 164);
+  cursor: pointer;
+}
+
+.todoIconComplete:hover {
+  color: teal;
+  transition: none;
+}
+
+.todoIconDelete {
+  margin-right: 15px;
+  color: rgb(167, 164, 164);
+  cursor: pointer;
+}
+
+.todoIconDelete:hover {
+  color: #ff5050;
+  transition: none;
+}
+
+.strike {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid #555;
+  color: grey;
+  background-color: transparent;
+  user-select: none;
+}
