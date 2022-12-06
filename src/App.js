@@ -17,6 +17,7 @@ function App() {
       setTodos([...todos, newText])
     }
   }
+
   const deleteTodoHandler = (id) => {
     setTodos(todos.filter((todo) => todo.id !== id))
   }
